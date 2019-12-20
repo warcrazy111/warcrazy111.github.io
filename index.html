@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>나의 인쇙 이야귀</title>
+	<!--<link href = '//fonts.googleapis.com/earlyaccess/notosansbuginese.css' rel = 'stylesheet'>-->
+	<link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Calistoga|Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Calistoga|Nanum+Brush+Script|Pacifico&display=swap" rel="stylesheet">
+	<style>
+		.clear{clear: both;}
+		*{padding: 0; margin: 0;}
+		h3{color: white; text-align: center;}
+		body{
+			background-color: lightblue; 
+			background-image: url('./image/texture01.jpg');
+		    }
+		header{
+			   width: 1920px; height: 115px; text-align: center; margin: 0 0 0 0px; 
+			   border: solid 0px red; border-radius: 3px; background-color: #001065;
+			   background-image: url('./image/texture01.jpg');
+			  }
+		nav{
+			width: 285px; height: 30px; padding-top: 5px;
+			margin: 20px 605px 0 20px; border: solid 4px black; 
+		    border-radius: 25px; box-shadow: 2px 2px 10px gray; 
+		    float: right; text-align: center;
+		    font-family: 'Calistoga', cursive;
+            font-family: 'Pacifico', cursive;
+            font-family: 'Nanum Brush Script', cursive;
+		   }
+		aside{
+			  width: 245px; height: 854px; margin: 0 0 0 0; 
+			  border: solid 0px yellow; float: left; 
+			  background-image: url('./image/texture01.jpg');
+			  font-family: 'Calistoga', cursive;
+              font-family: 'Pacifico', cursive;
+              font-family: 'Nanum Brush Script', cursive;
+			 }
+		section{
+			    width: 1050px; height: 610px;
+			    margin: 80px 320px 0 445px; border: solid 0px white;
+			    background-image: url('./image/paper05.jpg');
+			    font-family: 'Calistoga', cursive;
+                font-family: 'Pacifico', cursive;
+			   }
+		footer{
+			   width: 1480px; height: 99px; 
+			   margin: 65px 15px 0 235px;
+			   padding-left: 0; border: solid 0px darkgreen;  
+			   background-image: url('./image/texture01.jpg');
+			  }
+	    input[type = 'button']
+             {
+             	font-size: 25px;
+             	border: solid 1px blue;
+             	border-radius: 20px;
+             	background-color: purple;
+             	box-shadow: 2px 1px 1px blue;
+             	font-family: 'Calistoga', cursive;
+                font-family: 'Pacifico', cursive;
+                font-family: 'Nanum Brush Script', cursive;
+                padding: 3px 3px 3px 3px;
+                color: white;
+             }
+		#etc{
+			 margin-top: 10px;
+			 color: black; 
+			 font-size: 20px; float: right;
+			 font-family: 'Calistoga', cursive;
+             font-family: 'Pacifico', cursive;
+             font-family: 'Nanum Brush Script', cursive;
+		    }
+		#icon{
+			  list-style-type: none;
+			 }
+		#icon li{
+			     display: inline;
+			    }
+		#sidebar{
+			     text-shadow: 5px 3px 2px lightgray;
+			     border: solid 2px white; border-radius: 20px; 
+			     margin: 24px 0 0 0; box-shadow: 2px 3px 11px lightgray; 
+			     background-image: url('./image/texture01.jpg');
+			    }
+		#sidebar li{
+			        font-size: 25px; font-family: ; color: white; 
+			        list-style-type: square; 
+			        border-bottom: dotted 1px white;
+			        text-shadow: 2px 3px 3px lightgray;
+			       }
+		#login{
+			   color: black; font-size: 18px; 
+			   float: right; border: solid 1px black; border-radius: 20px; 
+			   background-image: url('./image/paper04.jpg'); 
+			   box-shadow: 3px 3px 10px gray; margin: 0 14px 0 0; 
+			   padding: 1px 3px 1px 3px;
+			   font-family: 'Calistoga', cursive;
+               font-family: 'Pacifico', cursive;
+               font-family: 'Nanum Brush Script', cursive;
+			  }
+		#menu{
+			  list-style-type: none;
+			 }
+        #menu li{
+        	    color: black; font-size: 21px; 
+        	    display: inline; text-align: center; 
+        	    text-shadow: 5px 3px 2px lightgray;
+        	    }
+		#title{
+			   font-size: 50px; color: black; 
+			   text-align: center; font-weight: bold; 
+			   text-shadow: 2px 1px 10px lightgray; 
+			   font-family: 'Calistoga', cursive;
+               font-family: 'Pacifico', cursive;
+			  }
+		#littletitle{
+			         font-size: 15px; color: white; 
+			         text-align: center; 
+			         font-weight: bold; text-shadow: 1px 2px 10px lightgray;
+			        }
+		#box1{
+			  border: solid 5px white; width: 300px; 
+			  height: 100px; font-size: 22px; text-align: center; 
+			  padding-bottom: 20px; padding-top: 20px; 
+			  color: white; margin: 0px 0 0px 20px; 
+			  box-shadow: 3px 3px 10px lightgray; 
+			  background-image: url('./image/gallery01.png');
+			  font-family: 'Calistoga', cursive;
+              font-family: 'Pacifico', cursive;
+              font-family: 'Nanum Brush Script', cursive;
+			 }
+		#box2{
+			  border: solid 5px white; 
+			  width: 300px; height: 100px; 
+			  font-size: 22px; text-align: center; 
+			  padding-bottom: 20px; padding-top: 20px; float: right; 
+			  color: black; margin: 45px 20px 100px 0px; box-shadow: 3px 3px 10px lightgray; 
+			  background-image: url('./image/diary02.jpg'); 
+			  background-repeat: no-repeat;
+			  font-family: 'Calistoga', cursive;
+              font-family: 'Pacifico', cursive;
+              font-family: 'Nanum Brush Script', cursive;
+			 }
+		#box3{
+			  border: solid 5px white; 
+			  width: 300px; height: 100px; 
+			  font-size: 22px; 
+			  text-align: center; 
+		 	  padding-bottom: 20px; padding-top: 20px; 
+		      margin: 260px 0px 0px 20px; 
+			  color: black; box-shadow: 3px 3px 10px lightgray;
+		      background-image: url('./image/today01.jpg'); 
+		      background-repeat: no-repeat;
+		      font-family: 'Calistoga', cursive;
+              font-family: 'Pacifico', cursive;
+              font-family: 'Nanum Brush Script', cursive;
+		     }
+		     #background
+		     {
+		     	width: 1715px;
+		     	background-image: url('./image/paper06.jpg');
+		     }
+		     a:link {
+                       text-decoration: none;
+                       color: blue;
+                    }
+
+             a:visited {
+                          text-decoration: none;
+                          color: darkblue;
+                       }
+
+              a:hover {
+                          text-decoration: underline;
+                          color: lightblue;
+                      }
+
+              a:active {
+                          text-decoration: underline;
+                          color: blue;
+                       }
+	</style>
+	</head>
+	<body>
+        <div id = 'background'>
+		<header>
+			<img src = './image/pin01.png' width = '95'>
+			<span id = 'title'><a href = './index.html'>"My Story.."</a></span>
+			<img src = './image/pin02.png' width = '95'><br>
+		</header>
+		<nav>
+			<ul id = "menu">
+				<li><a href = './blog01.html'>블로그 소개</a></li>
+				<li> │</li>
+				<li><a href = './warning.html'>주의사항</a></li>
+				<li> │ </li>
+				<li><a href = './etc.html'>기타사항</a></li>
+				</ul>
+		</nav>
+		<aside>
+			<ul id = 'sidebar'>
+				<br><h3>※추억에 대하여...☆</h3><br>
+				<br><li><a href = './gallery03.html'>☆좋아하는 가수들 갤러리☆</a></li><br>
+				<li><a href = './gallery01.html'>☆댕댕이 뇨속에 관하여.☆</a></li><br>
+				<li><a href = './gallery02.html'>☆기타 많은 추억들☆</a></li><br>
+		<br></ul><br><br>
+		        <img src = './image/dart01.png' width = '250'>
+		        <img src = './image/dart02.png' width = '75'>
+		</aside>
+		<section>
+			<form>
+				<br>
+		<div id = 'box1'>
+            ○무기 갤러리<br>
+			어렸을 적부터 많이 봐온 것들<br>
+			이젠 또 하나의 취미가 됬다...<br>
+			<a href = './weapon.html'><input type = 'button' value = '갤러리 보러가기'></a>
+			</div>
+		<div id = 'box2'>
+			○일기장<br>
+			가끔은 일기를<br>
+			쓰고싶을 때가 있다.<br>
+			<a href = './diary.html'><input type = 'button' value = '일기장'></a>	
+		</div>
+		<div id = 'box3'>
+			○대표 명언<br><br>
+			-너무 피곤한 나머지 조금 써보았다.-<br>
+			<a href = './main01.html'><input type = 'button' value = '오늘의 명언'></a>
+		</div>
+	    </form>
+		</section>
+		<footer>
+			<img src = './image/pins05.png' width = '95'>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src = './image/pin03.png' width = '95'>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src = './image/sentence01.png' width = '265'>
+			<div id = 'etc'>
+			본인 이메일 : warcrazy111@naver.com<br>
+			문의 번호 : 000-0000-0000<br>
+			<ul id = 'icon'>
+			<li><a href = 'https://blog.naver.com/warcrazy111' target = '_blank'><img src = './image/naver01.png' width = '31'></a></li>
+			<li><a href = 'https://www.facebook.com/profile.php?id=100010242184362' target = '_blank'><img src = './image/facebook01.png' width = '31'></a></li>
+			<li><a href = 'https://twitter.com/home' target = '_blank'><img src = './image/twitter01.png' width = '31'></a></li>
+		</ul>
+	    </div>	
+	</footer>
+	</div>
+	</body>
+</html>
